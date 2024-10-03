@@ -15,7 +15,6 @@ body {
 
 .container {
   max-width: 1440px;
-  height: 710px;
   background-color: white;
   margin: 0 auto;
 }
@@ -215,8 +214,15 @@ body {
     text-align: center;
   }
 }
+.container {
+  max-width: 1440px;
+  height: 1000px;
+  background-color: white;
+  margin: 0 auto;
+}
+
 .containeer {
-  max-width: 1990px;
+  max-width: 1440px;
   background-color: white;
   margin: 0 auto;
 }
