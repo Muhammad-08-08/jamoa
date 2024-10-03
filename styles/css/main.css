@@ -288,11 +288,21 @@ section h3 {
 }
 section p {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
-section .audio {
+section .audio1 {
   width: 200px;
   height: 50px;
+}
+section .video1 {
+  max-width: 600px;
+  height: 600px;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(57, 57, 57);
 }
 
 .containeer {
