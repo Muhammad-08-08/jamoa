@@ -1,14 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/css/minified/main.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/css/minified/main.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
-</head>
-<body>
-    <a href="./index.html">Home</a>
-    <a href="./media.html">Media</a>
-    <a href="./iframe.html">Iframes & Colors</a>
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="bg-color">
+        <div class="container">
+          <nav>
+            <a href="./index.html">Home</a>
+            <a href="./media.html">Media</a>
+            <a href="./iframe.html">Iframes & Colors</a>
+            <div class="burger">
+                <label for="checkbox">
+                    <i  class="fa-solid fa-bars" style="color: #f2f2f2;" ></i>
+                </label>
+            </div>
+            <input type="checkbox" id="checkbox">
+            <div class="sidebar">
+                <div class="sidebar-burger">
+                    <div class="sidebar-text">
+                        <a href="./index.html">Home</a>
+                        <a href="./media.html">Media</a>
+                        <a href="./iframe.html">Iframes & Colors</a>
+                    </div>
+                    <div class="burger">
+                        <label for="checkbox">
+                            <i class="fa-solid fa-x" style="color: #ffffff;"></i>
+                        </label>
+                    </div>
+                    
+                </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="bg-color-bluuu">
+        <div class="container">
+          <div class="header-text">
+            <h2>Welcome to Media and Color Practice</h2>
+            <p>
+              Explore the use of images and different color types in HTML and
+              CSS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="main-text">
+          <h2>Image Gallery Task</h2>
+          <p>Create a gallery of images with different styles:</p>
+        </div>
+        <section class="section1">
+          <img src="./styles/qush.webp" alt="qush" />
+          <img src="./styles/qush.webp" alt="qush" />
+          <img src="./styles/qush.webp" alt="qush" />
+        </section>
+        <div class="sec-text">
+          <h4>image1</h4>
+          <h4>image2</h4>
+          <h4>image3</h4>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <h3>© 2024 Media and Color Practice</h3>
+      </div>
+    </footer>
+  </body>
 </html>

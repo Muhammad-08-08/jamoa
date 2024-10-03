@@ -265,6 +265,48 @@ footer h3 {
     border-radius: 10px;
 =======
 .container {
+<<<<<<< HEAD
+  width: 100%;
+  max-width: 1990px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(57, 57, 57);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header nav {
+  display: flex;
+  gap: 10px;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 20px 10px;
+  transition: 1s;
+}
+header nav a:hover {
+  color: blue;
+}
+header .bg-color-bluuu {
+  background-color: blue;
+}
+header .bg-color-bluuu .header-text {
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+header .bg-color-bluuu .header-text h2 {
+  font-size: 36px;
+  margin-bottom: 45px;
+}
+header .bg-color-bluuu .header-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+=======
   max-width: 1990px;
   background-color: white;
   margin: 0 auto;
@@ -304,13 +346,18 @@ main h1 {
 }
 main p {
   font-size: 20px;
+>>>>>>> 30604cdc28e3c86b6c881a8f1cfb3237c8c3bccf
 }
 
 .sidebar {
   justify-content: space-between;
   width: 100vw;
   height: 100vh;
+<<<<<<< HEAD
+  background-color: rgb(75, 75, 75);
+=======
   background-color: blue;
+>>>>>>> 30604cdc28e3c86b6c881a8f1cfb3237c8c3bccf
   color: white;
   position: fixed;
   left: 0;
@@ -324,6 +371,18 @@ input[type=checkbox]:checked + .sidebar {
   transform: translateX(0);
 }
 
+<<<<<<< HEAD
+.burger {
+  margin-left: 230px;
+  margin-top: 10px;
+  display: none;
+}
+
+.sidebar-burger {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+=======
 .menyu {
   display: none;
 }
@@ -332,10 +391,15 @@ input[type=checkbox]:checked + .sidebar {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
+>>>>>>> 30604cdc28e3c86b6c881a8f1cfb3237c8c3bccf
 }
 
 .sidebar-text {
   display: flex;
+<<<<<<< HEAD
+  flex-direction: column;
+=======
+>>>>>>> 30604cdc28e3c86b6c881a8f1cfb3237c8c3bccf
   gap: 30px;
 }
 
@@ -343,6 +407,184 @@ input {
   display: none;
 }
 
+<<<<<<< HEAD
+main {
+  padding: 20px 50px;
+  margin-top: 250px;
+}
+
+.main-text h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.main-text p {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.section1 img {
+  width: 400px;
+  border-radius: 25px;
+  transition: all 0.5s;
+}
+.section1 img:hover {
+  opacity: 0.7;
+  scale: 1.1;
+}
+
+.sec-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sec-text h4 {
+  font-size: 16px;
+  margin-top: 10px;
+  color: grey;
+}
+
+footer {
+  background-color: rgb(57, 57, 57);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer h3 {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+@media (max-width: 630px) {
+  .burger {
+    display: block;
+  }
+  header {
+    background-color: rgb(57, 57, 57);
+  }
+  header nav {
+    display: flex;
+    gap: 10px;
+  }
+  header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 15px 5px;
+    transition: 1s;
+  }
+  header nav a:hover {
+    color: blue;
+  }
+  header .bg-color-bluuu {
+    background-color: blue;
+  }
+  header .bg-color-bluuu .header-text {
+    text-align: center;
+    padding: 30px;
+    color: white;
+  }
+  header .bg-color-bluuu .header-text h2 {
+    font-size: 28px;
+    margin-bottom: 35px;
+  }
+  header .bg-color-bluuu .header-text p {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .main-text h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .main-text p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .section1 img {
+    width: 350px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  header {
+    background-color: rgb(57, 57, 57);
+  }
+  header nav {
+    display: flex;
+    gap: 10px;
+  }
+  header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 15px 5px;
+    transition: 1s;
+  }
+  header nav a:hover {
+    color: blue;
+  }
+  header .bg-color-bluuu {
+    background-color: blue;
+  }
+  header .bg-color-bluuu .header-text {
+    text-align: center;
+    padding: 30px;
+    color: white;
+  }
+  header .bg-color-bluuu .header-text h2 {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  header .bg-color-bluuu .header-text p {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .main-text h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .main-text p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .section1 img {
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  footer {
+    background-color: rgb(57, 57, 57);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  footer h3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: white;
+  }
+}
+@media (max-width: 380px) {
+  .section1 img {
+    width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+=======
 section {
   width: 100%;
   height: 1000px;
