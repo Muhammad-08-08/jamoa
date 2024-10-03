@@ -1,0 +1,35 @@
+header{
+    background-color: $nav-footer-bg;
+
+    nav{
+        display: flex;
+        gap: 10px;
+        a{
+            text-decoration: none;
+            color:$color;
+            font-size: 18px;
+            padding: 20px 10px;
+            transition: 1s ;
+            &:hover{
+                color: $main-bg-color;
+            }
+           
+        }
+    }
+.bg-color-bluuu{
+    background-color: $main-bg-color;
+    .header-text{
+        text-align: center;
+        padding: 30px;
+        color: $color;
+        h2{
+            font-size: 36px;
+            margin-bottom: 45px;
+        }
+        p{
+             font-size: 16px;
+             margin-bottom: 20px;
+        }
+    }
+}
+}
