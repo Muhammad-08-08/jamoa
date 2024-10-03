@@ -12,6 +12,9 @@
 
 header {
   background-color: rgb(57, 57, 57);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 header nav {
   display: flex;
@@ -44,8 +47,49 @@ header .bg-color-bluuu .header-text p {
   margin-bottom: 20px;
 }
 
+.sidebar {
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(75, 75, 75);
+  color: white;
+  position: fixed;
+  left: 0;
+  z-index: 9999;
+  transition: 1s;
+  top: 0;
+  transform: translateX(-100%);
+}
+
+input[type=checkbox]:checked + .sidebar {
+  transform: translateX(0);
+}
+
+.burger {
+  margin-left: 230px;
+  margin-top: 10px;
+  display: none;
+}
+
+.sidebar-burger {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sidebar-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+input {
+  display: none;
+}
+
 main {
   padding: 20px 50px;
+  margin-top: 250px;
 }
 
 .main-text h2 {
@@ -100,6 +144,9 @@ footer h3 {
 }
 
 @media (max-width: 630px) {
+  .burger {
+    display: block;
+  }
   header {
     background-color: rgb(57, 57, 57);
   }
