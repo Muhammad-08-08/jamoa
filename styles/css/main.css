@@ -5,7 +5,6 @@
 }
 
 .container {
-<<<<<<< HEAD
   width: 100%;
   max-width: 1990px;
   margin: 0 auto;
@@ -13,9 +12,6 @@
 
 header {
   background-color: rgb(57, 57, 57);
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 header nav {
   display: flex;
@@ -46,111 +42,10 @@ header .bg-color-bluuu .header-text h2 {
 header .bg-color-bluuu .header-text p {
   font-size: 16px;
   margin-bottom: 20px;
-=======
-  max-width: 1990px;
-  background-color: white;
-  margin: 0 auto;
 }
 
-nav {
-  width: 100%;
-  height: 60px;
-  background-color: rgb(57, 57, 57);
-  padding: 20px;
-  display: flex;
-  gap: 30px;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-}
-nav a:hover {
-  color: orange;
-}
-nav a:active {
-  color: gold;
-}
-
-main {
-  width: 100%;
-  height: 200px;
-  background-color: blue;
-  text-align: center;
-  color: white;
-  padding-top: 50px;
-}
-main h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-main p {
-  font-size: 20px;
->>>>>>> 30604cdc28e3c86b6c881a8f1cfb3237c8c3bccf
-}
-
-.sidebar {
-  justify-content: space-between;
-  width: 100vw;
-  height: 100vh;
-<<<<<<< HEAD
-  background-color: rgb(75, 75, 75);
-=======
-  background-color: blue;
->>>>>>> 30604cdc28e3c86b6c881a8f1cfb3237c8c3bccf
-  color: white;
-  position: fixed;
-  left: 0;
-  z-index: 9999;
-  transition: 1s;
-  top: 0;
-  transform: translateX(-100%);
-}
-
-input[type=checkbox]:checked + .sidebar {
-  transform: translateX(0);
-}
-
-<<<<<<< HEAD
-.burger {
-  margin-left: 230px;
-  margin-top: 10px;
-  display: none;
-}
-
-.sidebar-burger {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-=======
-.menyu {
-  display: none;
-}
-
-.sidebar-img {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
->>>>>>> 30604cdc28e3c86b6c881a8f1cfb3237c8c3bccf
-}
-
-.sidebar-text {
-  display: flex;
-<<<<<<< HEAD
-  flex-direction: column;
-=======
->>>>>>> 30604cdc28e3c86b6c881a8f1cfb3237c8c3bccf
-  gap: 30px;
-}
-
-input {
-  display: none;
-}
-
-<<<<<<< HEAD
 main {
   padding: 20px 50px;
-  margin-top: 250px;
 }
 
 .main-text h2 {
@@ -205,9 +100,6 @@ footer h3 {
 }
 
 @media (max-width: 630px) {
-  .burger {
-    display: block;
-  }
   header {
     background-color: rgb(57, 57, 57);
   }
@@ -324,7 +216,87 @@ footer h3 {
     width: 250px;
     margin-bottom: 20px;
     text-align: center;
-=======
+  }
+}
+.container {
+  max-width: 1990px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(57, 57, 57);
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav a:hover {
+  color: orange;
+}
+nav a:active {
+  color: gold;
+}
+
+main {
+  width: 100%;
+  height: 200px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+main h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+main p {
+  font-size: 20px;
+}
+
+.sidebar {
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+  color: white;
+  position: fixed;
+  left: 0;
+  z-index: 9999;
+  transition: 1s;
+  top: 0;
+  transform: translateX(-100%);
+}
+
+input[type=checkbox]:checked + .sidebar {
+  transform: translateX(0);
+}
+
+.menyu {
+  display: none;
+}
+
+.sidebar-img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.sidebar-text {
+  display: flex;
+  gap: 30px;
+}
+
+input {
+  display: none;
+}
+
 section {
   width: 100%;
   height: 1000px;
@@ -728,6 +700,5 @@ footer p {
   section .section-text .section-text-child span {
     font-size: 10px;
     color: rgb(131, 131, 243);
->>>>>>> 30604cdc28e3c86b6c881a8f1cfb3237c8c3bccf
   }
 }/*# sourceMappingURL=main.css.map */
