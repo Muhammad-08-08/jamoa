@@ -1,14 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/css/minified/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
+
 <body>
-    <a href="./index.html">Home</a>
-    <a href="./media.html">Media</a>
-    <a href="./iframe.html">Iframes & Colors</a>
+    <div class="container">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./media.html">Media</a>
+            <a href="./iframe.html">Iframes & Colors</a>
+            <div class="menyu">
+                <label for="checkbox">
+                    <i class="fa-solid fa-bars" style="color: #f2f2f2;"></i>
+                </label>
+            </div>
+            <input type="checkbox" id="checkbox">
+            <div class="sidebar">
+                <div class="sidebar-img">
+                    <div class="sidebar-text">
+                        <a href="./index.html">Home</a>
+                        <a href="./media.html">Media</a>
+                        <a href="./iframe.html">Iframes & Colors</a>
+                    </div>
+                    <div class="qaytish">
+                        <label for="checkbox">
+                            <i class="fa-solid fa-x" style="color: #ffffff;"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <h1>Iframes & Colors Practice</h1>
+            <p>Learn how to embed iframes and use different color types in CSS.</p>
+        </main>
+        <section>
+            <h3>Iframe Task</h3>
+            <p>Embed an iframe displaying a webpage, with custom styling:</p>
+            <div class="section-text">
+                <div class="section-text-child">
+                    <h2>Example Domain</h2>
+                    <p>This domain is for use in illustrative examples in documents. You may use this domain in
+                        literature without prior coordination or asking for permission.</p>
+                    <span>More information...</span>
+                </div>
+            </div>
+            <h3>Color Types Task</h3>
+            <p>Style elements using different color types:</p>
+            <div class="section-button">
+                <button class="RGB">RGB Color</button>
+                <button class="RGBA">RGBA Color with Opacity</button>
+                <button class="HEX">HEX Color</button>
+            </div>
+        </section>
+        <footer>
+            <p>© 2024 Media and Color Practice</p>
+        </footer>
+    </div>
 </body>
+
 </html>
