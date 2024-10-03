@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1990px;
+  margin: 0 auto;
+}
+
 header {
   background-color: rgb(57, 57, 57);
   position: fixed;
